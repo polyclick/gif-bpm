@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:700,700italic,400,400italic);
+
+html,
+body {
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Ubuntu Mono', 'Courier New', sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-smoothing: subpixel-antialiased;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+}
+
+.debug {
+  color: #fff;
+  left: 0;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+
+  strong {
+    color: #ccff6b;
+  }
+}
